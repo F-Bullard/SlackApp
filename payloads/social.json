@@ -1,0 +1,309 @@
+{
+	"type": "modal",
+	"title": {
+		"type": "plain_text",
+		"text": "Social Randomizer",
+		"emoji": true
+	},
+	"submit": {
+		"type": "plain_text",
+		"text": "Submit",
+		"emoji": true
+	},
+	"close": {
+		"type": "plain_text",
+		"text": "Cancel",
+		"emoji": true
+	},
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "User to add to randomizer"
+			},
+			"accessory": {
+				"type": "users_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Select a user",
+					"emoji": true
+				},
+				"action_id": "users_select-action"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "checkboxes",
+          "action_id": "sun",
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Sunday",
+								"emoji": true
+							}
+						}
+					]
+				},
+				{
+					"type": "timepicker",
+					"initial_time": "00:00",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select time",
+						"emoji": true
+					},
+					"action_id": "sun_start"
+				},
+				{
+					"type": "timepicker",
+					"initial_time": "12:00",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select time",
+						"emoji": true
+					},
+					"action_id": "sun_end"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "checkboxes",
+          "action_id": "mon",
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Monday",
+								"emoji": true
+							},
+							"value": "mon"
+						}
+					]
+				},
+				{
+					"type": "timepicker",
+					"initial_time": "00:00",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select time",
+						"emoji": true
+					},
+					"action_id": "mon_start"
+				},
+				{
+					"type": "timepicker",
+					"initial_time": "12:00",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select time",
+						"emoji": true
+					},
+					"action_id": "mon_end"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "checkboxes",
+          "action_id": "tues",
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Tuesday",
+								"emoji": true
+							},
+							"value": "tues"
+						}
+					]
+				},
+				{
+					"type": "timepicker",
+					"initial_time": "00:00",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select time",
+						"emoji": true
+					},
+					"action_id": "tues_start"
+				},
+				{
+					"type": "timepicker",
+					"initial_time": "12:00",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select time",
+						"emoji": true
+					},
+					"action_id": "tues_end"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "checkboxes",
+          "action_id": "wed",
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Wednesday",
+								"emoji": true
+							},
+							"value": "wed"
+						}
+					]
+				},
+				{
+					"type": "timepicker",
+					"initial_time": "00:00",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select time",
+						"emoji": true
+					},
+					"action_id": "wed_start"
+				},
+				{
+					"type": "timepicker",
+					"initial_time": "12:00",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select time",
+						"emoji": true
+					},
+					"action_id": "wed_end"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "checkboxes",
+          "action_id": "thur",
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Thursday",
+								"emoji": true
+							},
+							"value": "thur"
+						}
+					]
+				},
+				{
+					"type": "timepicker",
+					"initial_time": "00:00",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select time",
+						"emoji": true
+					},
+					"action_id": "thur_start"
+				},
+				{
+					"type": "timepicker",
+					"initial_time": "12:00",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select time",
+						"emoji": true
+					},
+					"action_id": "thur_end"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "checkboxes",
+          "action_id": "fri",
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Friday",
+								"emoji": true
+							},
+							"value": "fri"
+						}
+					]
+				},
+				{
+					"type": "timepicker",
+					"initial_time": "00:00",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select time",
+						"emoji": true
+					},
+					"action_id": "fri_start"
+				},
+				{
+					"type": "timepicker",
+					"initial_time": "12:00",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select time",
+						"emoji": true
+					},
+					"action_id": "fri_end"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "checkboxes",
+          "action_id": "sat",
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Saturday",
+								"emoji": true
+							},
+							"value": "sat"
+						}
+					]
+				},
+				{
+					"type": "timepicker",
+					"initial_time": "00:00",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select time",
+						"emoji": true
+					},
+					"action_id": "sat_start"
+				},
+				{
+					"type": "timepicker",
+					"initial_time": "12:00",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select time",
+						"emoji": true
+					},
+					"action_id": "sat_end"
+				}
+			]
+		}
+	],
+    "callback_id" : "social_add"
+}

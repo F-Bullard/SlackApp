@@ -1,0 +1,56 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "SRP Interactive Home"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"fields": [
+				{
+					"type": "mrkdwn",
+					"text": "You're list of reported solves will be shown here!"
+				},
+				{
+					"type": "mrkdwn",
+					"text": "Duels score board will be shown here!"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "SRP Interactive Options"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "checkboxes",
+          "action_id": "ignore",
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Ignore requests"
+							},
+							"value": "ignore"
+						}
+					]
+				}
+			]
+		}
+	]
+}
